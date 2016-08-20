@@ -8,4 +8,3 @@ Fun while learning javascript and angular.
 * Learn Angular
 * Learn frontend tools: Yeoman, Bower, Atom, etc.
 * Learn Less
-* damsi
