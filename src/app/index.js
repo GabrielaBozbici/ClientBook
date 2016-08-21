@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('test', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize']);
+angular.module('app', ['ui.router', 'ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize']);

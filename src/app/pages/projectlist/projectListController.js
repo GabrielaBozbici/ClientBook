@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('app')
-  .controller('NavbarCtrl', function ($scope) {
+  .controller('projectListController', function ($scope) {
     $scope.date = new Date();
   });
