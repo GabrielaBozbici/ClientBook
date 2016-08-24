@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  padding: 0px;
 }
 
 a {
@@ -24,41 +25,43 @@ a {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
-  background-color: #222;
+  background-color: grey;
 
-  &>a {
+  .logo {
+    display: block;
+    margin-bottom: 0px;
+      padding-top: 15px;
     float: left;
-    color: lightgrey;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 50px;
+    width: 6rem;
   }
-
-  ul {
-    float: left;
-    padding: 0;
-    margin: 0;
-
-    li {
-      float: left;
-      position: relative;
-      display: block;
-
-      a {
-        color: white;
-        position: relative;
-        display: block;
-        padding: 15px;
-        line-height: 20px;
-      }
-      &.active a {
-        background-color: black;
-      }
-    }
+  .title {
+    display: block;
+    padding-top: 15px;
+    padding-left: 30px;
   }
 }
+.leftnavbar {
+  position: fixed;
+  width: 6rem;
+  height: 100%;
+  background-color: cornflowerblue;
+  p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: lightgrey;
+  }
+  a:hover {
+    margin: 1px solid red;
+  }
+}
+
 
 .jumbotron {
   padding: 60px;
